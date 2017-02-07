@@ -405,7 +405,7 @@ You need to follow these steps in BOTH POC environments.
    address for the ports that the IKE authentication. Remember to
    change the IP address to the one that matches your environment.
    
-       Add-NetNatExternalAddress -NatName BGPNAT -IPAddress 10.16.169.131 PortStart 499 -PortEnd 501
+       Add-NetNatExternalAddress -NatName BGPNAT -IPAddress 10.16.169.131 PortStart 499 -PortEnd 4500
 8. Next, you create a static NAT mapping to map the external
     address to the Gateway Public IP Address to map the ISAKMP port 500
     for PHASE 1 of the IPSEC tunnel.
